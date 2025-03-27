@@ -1,0 +1,19 @@
+git init 
+ls -a (to see whats in the file)
+git status ( to see if the file is ready to be commited or not, green=yes)
+git commit -m "Feat: new File <filename>"
+git status( if it says "On branch master nothing to commit, working tree clean" then its working properlhy)
+after doing new repository in github we'll get a link"https://github.com/Mortadha1231/morta.git"
+git remote add origin https://github.com/Mortadha1231/morta.git
+git status
+git branch (to see the branches we have and the one we're in(the one in the green))
+git branch -M main (creating a new branch with the name main)
+git status (if we see the then the branch is done successfuly"On branch main nothing to commit, working tree clean")
+git push -u origin main(uploading the files)
+git branch aziz (creating new branch)
+git status( to see if its added or not)
+git checkout aziz (to change the branch from main to aziz)
+
+
+
+
